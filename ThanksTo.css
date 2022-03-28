@@ -1,0 +1,113 @@
+body {
+	margin: auto;
+}
+
+.topnav {
+	position: relative;
+	overflow: hidden;
+	padding-top: 10px;
+	background-image: url("red bg.png");
+	background-position: center center;
+	width: 100%;
+	height: 67%;
+	background-repeat: no-repeat;
+}
+
+.topnav img {
+	width: 100px;
+	height: 34px;
+}
+
+.topnav a {
+	float: left;
+	color: #ffff;
+	text-align: center;
+	font-family: 'IM Fell English SC', serif;
+	padding: 30px 50px;
+	text-decoration: none;
+}
+
+.topnav a {
+	transition: 0.5s;
+}
+
+.topnav a:hover {
+	transform: scale(1.10);
+}
+
+.topnav-right {
+	float: right;
+}
+
+.topnav-right a {
+	float: right;
+	padding-left: 170px;
+	padding-right: 50px;
+}
+
+.paper {
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+
+.ticket {
+	position: absolute;
+	top: 700px;
+	right: 200px;;
+}
+
+.vid {
+	position: absolute;
+	top: 20%;
+	left: 17%;
+	right: 17%;
+}
+
+h1 {
+	color: #ffff;
+	text-align: center;
+	font-family: 'IM Fell Double Pica', serif;
+}
+
+.rec {
+	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.rec h1,h2,h3 {
+	position: relative;
+	font-family: 'IM Fell English SC', serif;
+	margin: auto;
+}
+
+.rec h1,h2 {
+	color: #662222;
+}
+
+.rec h3 {
+	color: #204666;
+}
+
+.list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: dense;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+	
+.mem {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: dense;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+}

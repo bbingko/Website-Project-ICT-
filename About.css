@@ -1,0 +1,175 @@
+body {
+	margin: auto;
+}
+
+.topnav {
+	position: relative;
+	overflow: hidden;
+	padding-top: 10px;
+	background-image: url("yellow bg.png");
+	background-position: center center;
+	width: 100%;
+	height: 67%;
+	background-repeat: no-repeat;
+}
+
+.topnav img {
+	width: 100px;
+	height: 34px;
+}
+
+.topnav a {
+	float: left;
+	color: #ffff;
+	text-align: center;
+	font-family: 'IM Fell English SC', serif;
+	padding: 30px 50px;
+	text-decoration: none;
+}
+
+.topnav a {
+	transition: 0.5s;
+}
+
+.topnav a:hover {
+	transform: scale(1.10);
+}
+
+.topnav-right {
+	float: right;
+}
+
+.topnav-right a {
+	float: right;
+	padding-left: 170px;
+	padding-right: 50px;
+}
+
+.who {
+	position: absolute;
+	top: 20%;
+	left: 21%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-flow: dense;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 800px;
+}
+
+.who h1 {
+	font-family: 'IM Fell Double Pica', serif;
+	color: white;
+	margin: auto;
+}
+
+.who p {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 25px;
+	color: white;
+	margin: auto;
+}
+
+.cl {
+	position: absolute;
+	left: 0;
+	top: 100px;
+}
+
+.sl {
+	position: absolute;
+	right: 0;
+	top: 330px;
+	width: 27%;
+}
+
+.ur {
+	position: absolute;
+	right: 0;
+	top: 482px;
+	width: 35%;
+}
+
+.rose {
+	position: absolute;
+	left: 380px;
+	top: 910px;
+}
+
+.fly {
+	position: absolute;
+	right: 30px;
+	top: 970;
+}
+
+.item {
+	position: absolute;
+	left: 0;
+	top: 1000px;
+}
+
+.girl {
+	position: absolute;
+	right: 0;
+	top:  1790px;
+}
+
+.ran {
+	position: absolute;
+	left: 530px;
+	top:  2600px;
+}	
+
+.fol {
+	position: absolute;
+	left: 0;
+	top:  2810px;
+}
+
+.pl {
+	position: absolute;
+	right: 0;
+	top:  2700px;
+}
+
+.main {
+	padding-top: 50px;
+}
+
+.member {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: dense;
+	box-sizing: border-box;
+	grid-gap: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	padding-right: 150px;
+}
+
+.member img {
+	position: relative;
+	padding-top: 130px;
+	padding-bottom: 50px;
+	padding-left: 250px;
+}
+
+.par {
+	padding-top: 120px;
+}
+
+.par h1 {
+	font-family: 'IM Fell English SC', serif;
+	color: #662222;
+	margin: auto;
+}
+
+.par p {
+	font-family: 'Darker Grotesque', sans-serif;
+	text-align: justify;
+	font-size: 24px;
+	margin: auto;
+}
